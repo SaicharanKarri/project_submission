@@ -4,13 +4,13 @@ class Project1(ABC):
     
     @abstractmethod
     def load_img(self):
-        pass
+        print("I made some update")
 
     @abstractmethod
     def load_model(self):
-        pass
+        print("I made some update")
 
     @abstractmethod
     def model_predict(self):
-        pass
+        print("I made some update")
 
